@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif  ;
+}
+
+body {
+    font-family: 'roboto', sans-serif  ;
+    line-height: 1.6;
+    background-color: #fff;
+}
+.Nosotros{
+font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 1.5;
+    font-family: 'roboto', sans-serif  ;
+    letter-spacing: 0px;
+    padding: 20px;
+}
+
+
+
+
+.header {
+    background-color: #48e;
+    color: white;
+    padding: 0.2rem 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+.nav-links a:hover {
+    color: black;
+}
+
+.tecnología{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)), url(https://cymcomputer.com/wp-content/uploads/2022/11/omar-prestwich-0HAPFlyy9o4-unsplash-scaled.jpg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    min-height: 60vh;
+    padding: 200px 0;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+h1:hover{
+    color: #c5c5c5;
+}
+
+
+.hola{
+    margin: 0PX;
+    color: #48e;
+    padding: 10px;
+}
+
+
+.parrafo{
+    margin: 0PX;
+    color: #000000;
+    padding: 10px;
+    
+}
+.caja{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 75px;
+}
+
+
+
+
+
+.mv {
+    background-color: white;
+    font-family: 'roboto', sans-serif  ;
+    color: white;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 1150px;
+    height: 350px;    
+    margin: auto;
+}
+
+.card {
+    background: #48e;
+    text-align: left;
+    margin-top: 15px;
+    width: 50%;
+}
+
+.vision {
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 30px;
+    padding-top: 15px;
+
+}
+
+.mision {
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 30px;
+    padding-top: 15px;
+}
+
+.p2 {
+    font-size: 20px;
+    padding: 30px;
+    background:#48e;
+    text-align: justify;
+    padding-top: 5px;
+}
+
+.p1 {
+    font-size: 20px;
+    padding: 30px;
+    text-align: justify;
+    color: black;
+    padding-top: 5px;
+}
+
+
+.card1 {
+    background: #fff;
+    text-align: left;
+    margin-top: 15px;
+    color: #48e;
+    width: 50%;
+}
+
+.title-valores{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+
+.valores{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)), url(gamer-boy.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    padding: 40px 0;
+    margin-top: 100px;
+ 
+}
+
+.valores-content{
+    text-align: justify;
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+}
+
+
+
+
+.lista{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+}
+.ul{
+    list-style-type: none;
+}
+.li{
+    margin-bottom: 30px;
+}
+
+
+
+
+footer {
+    background-color: #48e; 
+    color: #fff; 
+    padding: 20px 0;
+    margin-top: 100px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+  }
+  
+  .footer-section h3, .footer-section h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .footer-section p, .footer-section ul {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #333; 
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    border-top: 1px solid #fff;
+    padding-top: 10px;
+  }
